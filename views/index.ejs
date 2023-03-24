@@ -1,0 +1,29 @@
+<!-- views/index.ejs -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Gallery App</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="gallery">
+        <% images.forEach((image) => { %>
+          <div class="gallery-item">
+            <img src="<%= image.smallSrc %>" alt="<%= image.alt %>" data-index="<%= images.indexOf(image) %>">
+          </div>
+        <% }); %>
+      </div>      
+    <div class="controls">
+      <button class="prev-button">Prev</button>
+      <button class="next-button">Next</button>
+    </div>
+    <div class="overlay">
+      <div class="overlay-content">
+        <img class="larger-image" src="" alt="">
+        <span class="close-button">&times;</span>
+      </div>
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
