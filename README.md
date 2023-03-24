@@ -4,21 +4,21 @@ This is a web application that displays a gallery of nature images retrieved fro
 <h2><b>Getting Started</b></h2>
 To run this application, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/photo-gallery-app.git
-Install dependencies: npm install
-Start the server: node app.js
-Open a web browser and navigate to http://localhost:3000
+Clone the repository: git clone https://github.com/your-username/photo-gallery-app.git<br>
+Install dependencies: npm install<br>
+Start the server: node app.js<br>
+Open a web browser and navigate to http://localhost:3000<br>
 
 
 <h2><b>Usage</b></h2>
 Click on an image in the gallery to view a larger version of it. Use the previous and next buttons to navigate through the gallery.
 
 <h2><b>Technologies Used</b></h2>
-HTML
-CSS
-JavaScript
-Express.js
-Pexels API
+HTML<br>
+CSS<br>
+JavaScript<br>
+Express.js<br>
+Pexels API<br>
 
 <h2><b>Credits</b></h2>
 This application was created by me(Ayush Singh) using the Pexels API and the Express.js web framework.
